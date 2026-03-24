@@ -24,8 +24,10 @@ const data = {
    Single source of truth for the quiz session.
    ============================================================ */
 const state = {
-  screen:        "intro",  // "intro" | "question" | "results"
-  questionIndex: 0,        // 0-based index into data.questions
+  screen:           "intro",  // "intro" | "question" | "results"
+  questionIndex:    0,        // 0-based index into data.questions
+  showMoreMatches:  false,    // expand additional primary picks
+  showWildcard:     false,    // expand the rogue pick
 
   answers: {
     genre:      null,   // string | null
@@ -113,15 +115,19 @@ function getProgressLabel() {
    NAVIGATION
    ============================================================ */
 function goToIntro() {
-  state.screen = "intro";
-  state.questionIndex = 0;
+  state.screen          = "intro";
+  state.questionIndex   = 0;
+  state.showMoreMatches = false;
+  state.showWildcard    = false;
   state.answers = { genre: null, themes: [], difficulty: null, length: null, mood: null };
+  window.scrollTo({ top: 0, behavior: "smooth" });
   render();
 }
 
 function startQuiz() {
   state.screen = "question";
   state.questionIndex = 0;
+  window.scrollTo({ top: 0, behavior: "smooth" });
   render();
 }
 
@@ -132,8 +138,11 @@ function goNext() {
   if (state.questionIndex < data.questions.length - 1) {
     state.questionIndex += 1;
   } else {
-    state.screen = "results";
+    state.screen          = "results";
+    state.showMoreMatches = false;
+    state.showWildcard    = false;
   }
+  window.scrollTo({ top: 0, behavior: "smooth" });
   render();
 }
 
@@ -141,6 +150,7 @@ function goBack() {
   if (state.screen === "results") {
     state.screen = "question";
     state.questionIndex = data.questions.length - 1;
+    window.scrollTo({ top: 0, behavior: "smooth" });
     render();
     return;
   }
@@ -149,6 +159,7 @@ function goBack() {
   } else {
     state.screen = "intro";
   }
+  window.scrollTo({ top: 0, behavior: "smooth" });
   render();
 }
 
@@ -282,11 +293,23 @@ function renderBookCard(book, isRogue) {
 function renderResults() {
   const { primaryPicks, roguePick } = runRecommendationEngine(data, state.answers);
 
-  const primaryCardsHTML = primaryPicks
-    .map(book => renderBookCard(book, false))
-    .join("");
+  const topPick   = primaryPicks[0];
+  const morePicks = primaryPicks.slice(1);
 
-  const rogueHTML = roguePick
+  const topCardHTML = topPick ? renderBookCard(topPick, false) : "";
+
+  const moreMatchesBtn = morePicks.length > 0 && !state.showMoreMatches
+    ? `<button class="btn-expand" id="btn-show-matches">You have ${morePicks.length} more ${morePicks.length === 1 ? "match" : "matches"} &darr;</button>`
+    : "";
+  const moreMatchesCards = state.showMoreMatches
+    ? morePicks.map(b => renderBookCard(b, false)).join("")
+    : "";
+
+  const rogueBtn = roguePick && !state.showWildcard
+    ? `<button class="btn-expand btn-expand--rogue" id="btn-show-wildcard">Show a rogue(ish) pick &darr;</button>`
+    : "";
+
+  const rogueSection = roguePick && state.showWildcard
     ? `
       <div class="results-section">
         <div class="results-section-header">
@@ -320,10 +343,13 @@ function renderResults() {
             Closest matches across all five dimensions.
           </p>
         </div>
-        ${primaryCardsHTML}
+        ${topCardHTML}
+        ${moreMatchesCards}
+        ${moreMatchesBtn}
+        ${rogueBtn}
       </div>
 
-      ${rogueHTML}
+      ${rogueSection}
 
       <div class="substack-block" id="substack-embed">
         <p class="substack-block__eyebrow">Get the Guide</p>
@@ -367,7 +393,6 @@ function renderProgressBar() {
    Composes the full page each time state changes.
    ============================================================ */
 function render() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   const app = document.getElementById("app");
 
   let body = "";
@@ -396,6 +421,39 @@ function attachEventListeners() {
 
   const btnBack = document.getElementById("btn-back");
   if (btnBack) btnBack.addEventListener("click", goBack);
+
+  const btnShowMatches = document.getElementById("btn-show-matches");
+  if (btnShowMatches) btnShowMatches.addEventListener("click", () => {
+    state.showMoreMatches = true;
+    const { primaryPicks } = runRecommendationEngine(data, state.answers);
+    const morePicks = primaryPicks.slice(1);
+    const html = morePicks.map(b => renderBookCard(b, false)).join("");
+    const temp = document.createElement("div");
+    temp.innerHTML = html;
+    const rogueBtn = document.getElementById("btn-show-wildcard");
+    const parent = btnShowMatches.parentNode;
+    while (temp.firstChild) {
+      parent.insertBefore(temp.firstChild, rogueBtn || btnShowMatches);
+    }
+    btnShowMatches.remove();
+  });
+
+  const btnShowWildcard = document.getElementById("btn-show-wildcard");
+  if (btnShowWildcard) btnShowWildcard.addEventListener("click", () => {
+    state.showWildcard = true;
+    const { roguePick } = runRecommendationEngine(data, state.answers);
+    const rogueHTML = `
+      <div class="results-section">
+        <div class="results-section-header">
+          <p class="results-section-label">A Rogue(ish) Pick</p>
+          <p class="results-section-desc" style="font-style:italic;">A nearby detour that still matches your mood and themes.</p>
+        </div>
+        ${renderBookCard(roguePick, true)}
+      </div>`;
+    const primarySection = btnShowWildcard.closest(".results-section");
+    primarySection.insertAdjacentHTML("afterend", rogueHTML);
+    btnShowWildcard.remove();
+  });
 
   const grid = document.getElementById("options-grid");
   if (grid) {
