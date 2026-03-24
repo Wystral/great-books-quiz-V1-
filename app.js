@@ -367,6 +367,7 @@ function renderProgressBar() {
    Composes the full page each time state changes.
    ============================================================ */
 function render() {
+  window.scrollTo(0, 0);
   const app = document.getElementById("app");
 
   let body = "";
