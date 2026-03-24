@@ -1,0 +1,47 @@
+[
+  {
+    "display_order": 1,
+    "question_id": "genre",
+    "question_text": "What kind of book are you in the mood for?",
+    "primary_book_field": "genre",
+    "max_choices": 1,
+    "response_type": "single_select",
+    "scoring_note": "Broadest filter; strongest weight"
+  },
+  {
+    "display_order": 2,
+    "question_id": "themes",
+    "question_text": "What do you want it to wrestle with?",
+    "primary_book_field": "themes",
+    "max_choices": 2,
+    "response_type": "multi_select",
+    "scoring_note": "User can choose up to 2 themes; each match scores separately"
+  },
+  {
+    "display_order": 3,
+    "question_id": "difficulty",
+    "question_text": "How much intellectual friction do you want?",
+    "primary_book_field": "difficulty",
+    "max_choices": 1,
+    "response_type": "single_select",
+    "scoring_note": "Also drives hidden beginner_friendly adjustment"
+  },
+  {
+    "display_order": 4,
+    "question_id": "length",
+    "question_text": "How much time do you want to give this?",
+    "primary_book_field": "length",
+    "max_choices": 1,
+    "response_type": "single_select",
+    "scoring_note": "Exact match is strongest; neighboring bucket gets partial credit"
+  },
+  {
+    "display_order": 5,
+    "question_id": "mood",
+    "question_text": "What kind of atmosphere are you after?",
+    "primary_book_field": "mood",
+    "max_choices": 1,
+    "response_type": "single_select",
+    "scoring_note": "Tone refiner; lighter weight than genre/themes/length"
+  }
+]

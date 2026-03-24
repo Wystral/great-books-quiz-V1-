@@ -1,0 +1,130 @@
+{
+  "primary_results": {
+    "enabled": {
+      "value": "yes",
+      "notes": "Main recommendations are always evaluated first"
+    },
+    "count": {
+      "value": 3,
+      "notes": "Return 3 standard picks"
+    },
+    "score_band_from_top": {
+      "value": 2,
+      "notes": "Keep books within 2 points of the top score before variety rules"
+    },
+    "max_per_author": {
+      "value": 1,
+      "notes": "Do not return more than 1 book per author in the main 3"
+    },
+    "prefer_different_era_section": {
+      "value": "yes",
+      "notes": "When scores are close, prefer different era_section values"
+    },
+    "prefer_higher_score_first": {
+      "value": "yes",
+      "notes": "Primary ordering still follows total score descending"
+    }
+  },
+  "rogueish_pick": {
+    "enabled": {
+      "value": "yes",
+      "notes": "Optional extra recommendation beyond the main 3"
+    },
+    "label": {
+      "value": "the rogue(ish) pick",
+      "notes": "User-facing label for the wildcard slot"
+    },
+    "count": {
+      "value": 1,
+      "notes": "Return at most one rogue(ish) pick"
+    },
+    "exclude_primary_results": {
+      "value": "yes",
+      "notes": "Cannot duplicate any of the main 3 results"
+    },
+    "different_author_from_primary": {
+      "value": "yes",
+      "notes": "Must not share an author with any of the main 3"
+    },
+    "prefer_different_era_section": {
+      "value": "yes",
+      "notes": "Prefer a different era_section from the main 3 when possible"
+    },
+    "min_theme_matches": {
+      "value": 1,
+      "notes": "Must match at least one selected theme"
+    },
+    "must_match_selected_mood": {
+      "value": "yes",
+      "notes": "Must match the selected mood exactly"
+    },
+    "eligibility_core": {
+      "value": "at least 1 theme + selected mood",
+      "notes": "Core relevance gate before rogue(ish) selection"
+    },
+    "max_length_distance": {
+      "value": 1,
+      "notes": "May be at most one length bucket away from the user selection"
+    },
+    "max_difficulty_distance": {
+      "value": 1,
+      "notes": "May be at most one difficulty step away from the user selection"
+    },
+    "allow_exact_genre": {
+      "value": "yes",
+      "notes": "An exact genre match is eligible"
+    },
+    "allow_adjacent_genre": {
+      "value": "yes",
+      "notes": "An approved adjacent genre is also eligible"
+    },
+    "min_score_ratio_vs_top": {
+      "value": 0.75,
+      "notes": "Must score at least 75% of the top overall score"
+    },
+    "prefer_lower_exposure": {
+      "value": "yes",
+      "notes": "Prefer books surfaced less often when multiple candidates are close"
+    },
+    "show_only_if_candidate_exists": {
+      "value": "yes",
+      "notes": "If no eligible candidate exists, return only the main 3"
+    },
+    "prefer_adjacent_genre_when_close": {
+      "value": "yes",
+      "notes": "Prefer an adjacent-genre rogue(ish) candidate when it is close enough to the best exact-genre rogue(ish) candidate."
+    },
+    "adjacent_genre_preference_type": {
+      "value": "within_1_point",
+      "notes": "Use adjacent genre as a controlled preference, not only as a tie-breaker. If the best adjacent-genre rogue(ish) candidate is within 1 point of the best exact-genre rogue(ish) candidate, choose the adjacent one."
+    },
+    "adjacent_genre_max_score_gap": {
+      "value": 2,
+      "notes": "Maximum allowed score gap between the best adjacent-genre rogue(ish) candidate and the best exact-genre rogue(ish) candidate for the adjacent one to be preferred. Set to 2 to allow more adjacent-genre rogue(ish) picks while keeping them close in quality."
+    }
+  },
+  "output": {
+    "default_result_count": {
+      "value": 3,
+      "notes": "Normal output is 3 books"
+    },
+    "max_result_count": {
+      "value": 4,
+      "notes": "Maximum output is 3 primary results plus 1 rogue(ish) pick"
+    },
+    "rogueish_is_separate": {
+      "value": "yes",
+      "notes": "Display the rogue(ish) pick separately from the main 3"
+    }
+  },
+  "questionnaire_fixes": {
+    "themes_added": {
+      "value": "Justice; Education",
+      "notes": "Added to theme answer set and scoring rules"
+    },
+    "satire_primary_mapping": {
+      "value": "Satire; Comedy; Novel",
+      "notes": "Satire now maps strongly in primary genre scoring"
+    }
+  }
+}

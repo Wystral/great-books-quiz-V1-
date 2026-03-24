@@ -1,0 +1,668 @@
+[
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Drama",
+    "book_field": "genre",
+    "book_value": "Comedy",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Drama",
+    "book_field": "genre",
+    "book_value": "Drama",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Drama",
+    "book_field": "genre",
+    "book_value": "Tragedy",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Epic",
+    "book_field": "genre",
+    "book_value": "Epic",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Essays",
+    "book_field": "genre",
+    "book_value": "Biography / Memoir",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Essays",
+    "book_field": "genre",
+    "book_value": "Essays",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "History",
+    "book_field": "genre",
+    "book_value": "History",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Novel",
+    "book_field": "genre",
+    "book_value": "Novel",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Philosophy",
+    "book_field": "genre",
+    "book_value": "Philosophy",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Poetry",
+    "book_field": "genre",
+    "book_value": "Poetry",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Political Theory",
+    "book_field": "genre",
+    "book_value": "Political Theory",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Satire",
+    "book_field": "genre",
+    "book_value": "Comedy",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Satire",
+    "book_field": "genre",
+    "book_value": "Novel",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Satire",
+    "book_field": "genre",
+    "book_value": "Satire",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Science",
+    "book_field": "genre",
+    "book_value": "Mathematics",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Science",
+    "book_field": "genre",
+    "book_value": "Science",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "genre",
+    "answer_option": "Theology",
+    "book_field": "genre",
+    "book_value": "Theology",
+    "score": 5,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Death",
+    "book_field": "themes",
+    "book_value": "Death",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Education",
+    "book_field": "themes",
+    "book_value": "Education",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Faith",
+    "book_field": "themes",
+    "book_value": "Faith",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Freedom",
+    "book_field": "themes",
+    "book_value": "Freedom",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Identity",
+    "book_field": "themes",
+    "book_value": "Identity",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Justice",
+    "book_field": "themes",
+    "book_value": "Justice",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Knowledge",
+    "book_field": "themes",
+    "book_value": "Knowledge",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Leadership",
+    "book_field": "themes",
+    "book_value": "Leadership",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Love",
+    "book_field": "themes",
+    "book_value": "Love",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Meaning",
+    "book_field": "themes",
+    "book_value": "Meaning",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Politics",
+    "book_field": "themes",
+    "book_value": "Politics",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Power",
+    "book_field": "themes",
+    "book_value": "Power",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "Society",
+    "book_field": "themes",
+    "book_value": "Society",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "themes",
+    "answer_option": "War",
+    "book_field": "themes",
+    "book_value": "War",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "beginner_friendly",
+    "book_value": "Only read it if it's not your first rodeo",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "beginner_friendly",
+    "book_value": "This book is probably better with a bit of context",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "beginner_friendly",
+    "book_value": "This is a good place to start",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "difficulty",
+    "book_value": "It's a pretty intuitive read",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "difficulty",
+    "book_value": "Reading this could break your brain",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Break my brain",
+    "book_field": "difficulty",
+    "book_value": "You might need to chew on some ideas",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "beginner_friendly",
+    "book_value": "Only read it if it's not your first rodeo",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "beginner_friendly",
+    "book_value": "This book is probably better with a bit of context",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "beginner_friendly",
+    "book_value": "This is a good place to start",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "difficulty",
+    "book_value": "It's a pretty intuitive read",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "difficulty",
+    "book_value": "Reading this could break your brain",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Give me something to chew on",
+    "book_field": "difficulty",
+    "book_value": "You might need to chew on some ideas",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "beginner_friendly",
+    "book_value": "Only read it if it's not your first rodeo",
+    "score": -2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "beginner_friendly",
+    "book_value": "This book is probably better with a bit of context",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "beginner_friendly",
+    "book_value": "This is a good place to start",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "difficulty",
+    "book_value": "It's a pretty intuitive read",
+    "score": 3,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "difficulty",
+    "book_value": "Reading this could break your brain",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "difficulty",
+    "answer_option": "Keep it intuitive",
+    "book_field": "difficulty",
+    "book_value": "You might need to chew on some ideas",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A couple of weeks",
+    "book_field": "length",
+    "book_value": "It'll probably take a couple of weeks casually reading about an hour a day to finish",
+    "score": 4,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A couple of weeks",
+    "book_field": "length",
+    "book_value": "This'll take a solid weekend alone to read",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A couple of weeks",
+    "book_field": "length",
+    "book_value": "You could read it in an afternoon",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A couple of weeks",
+    "book_field": "length",
+    "book_value": "You might as well marry the book",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A solid weekend",
+    "book_field": "length",
+    "book_value": "It'll probably take a couple of weeks casually reading about an hour a day to finish",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A solid weekend",
+    "book_field": "length",
+    "book_value": "This'll take a solid weekend alone to read",
+    "score": 4,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A solid weekend",
+    "book_field": "length",
+    "book_value": "You could read it in an afternoon",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "A solid weekend",
+    "book_field": "length",
+    "book_value": "You might as well marry the book",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "I wanna marry the book",
+    "book_field": "length",
+    "book_value": "It'll probably take a couple of weeks casually reading about an hour a day to finish",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "I wanna marry the book",
+    "book_field": "length",
+    "book_value": "This'll take a solid weekend alone to read",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "I wanna marry the book",
+    "book_field": "length",
+    "book_value": "You could read it in an afternoon",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "I wanna marry the book",
+    "book_field": "length",
+    "book_value": "You might as well marry the book",
+    "score": 4,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "Something I could read in an afternoon",
+    "book_field": "length",
+    "book_value": "It'll probably take a couple of weeks casually reading about an hour a day to finish",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "Something I could read in an afternoon",
+    "book_field": "length",
+    "book_value": "This'll take a solid weekend alone to read",
+    "score": 1,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "Something I could read in an afternoon",
+    "book_field": "length",
+    "book_value": "You could read it in an afternoon",
+    "score": 4,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "length",
+    "answer_option": "Something I could read in an afternoon",
+    "book_field": "length",
+    "book_value": "You might as well marry the book",
+    "score": 0,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Comic",
+    "book_field": "mood",
+    "book_value": "Comic",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Dark",
+    "book_field": "mood",
+    "book_value": "Dark",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Hopeful",
+    "book_field": "mood",
+    "book_value": "Hopeful",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Intense",
+    "book_field": "mood",
+    "book_value": "Intense",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Reflective",
+    "book_field": "mood",
+    "book_value": "Reflective",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Satirical",
+    "book_field": "mood",
+    "book_value": "Satirical",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Spiritual",
+    "book_field": "mood",
+    "book_value": "Spiritual",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Strange",
+    "book_field": "mood",
+    "book_value": "Strange",
+    "score": 2,
+    "notes": null
+  },
+  {
+    "rule_group": null,
+    "question_id": "mood",
+    "answer_option": "Tragic",
+    "book_field": "mood",
+    "book_value": "Tragic",
+    "score": 2,
+    "notes": null
+  }
+]

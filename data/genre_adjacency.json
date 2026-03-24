@@ -1,0 +1,124 @@
+{
+  "Philosophy": [
+    {
+      "allowed_book_genre": "Philosophy",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Political Theory",
+      "relationship": "adjacent"
+    },
+    {
+      "allowed_book_genre": "Theology",
+      "relationship": "adjacent"
+    }
+  ],
+  "History": [
+    {
+      "allowed_book_genre": "History",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Political Theory",
+      "relationship": "adjacent"
+    }
+  ],
+  "Novel": [
+    {
+      "allowed_book_genre": "Novel",
+      "relationship": "exact"
+    }
+  ],
+  "Drama": [
+    {
+      "allowed_book_genre": "Drama",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Tragedy",
+      "relationship": "adjacent"
+    },
+    {
+      "allowed_book_genre": "Comedy",
+      "relationship": "adjacent"
+    }
+  ],
+  "Epic": [
+    {
+      "allowed_book_genre": "Epic",
+      "relationship": "exact"
+    }
+  ],
+  "Political Theory": [
+    {
+      "allowed_book_genre": "Political Theory",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Philosophy",
+      "relationship": "adjacent"
+    },
+    {
+      "allowed_book_genre": "History",
+      "relationship": "adjacent"
+    }
+  ],
+  "Theology": [
+    {
+      "allowed_book_genre": "Theology",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Philosophy",
+      "relationship": "adjacent"
+    }
+  ],
+  "Science": [
+    {
+      "allowed_book_genre": "Science",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Mathematics",
+      "relationship": "adjacent"
+    }
+  ],
+  "Essays": [
+    {
+      "allowed_book_genre": "Essays",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Biography / Memoir",
+      "relationship": "adjacent"
+    }
+  ],
+  "Poetry": [
+    {
+      "allowed_book_genre": "Poetry",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Epic",
+      "relationship": "adjacent"
+    },
+    {
+      "allowed_book_genre": "Drama",
+      "relationship": "adjacent"
+    }
+  ],
+  "Satire": [
+    {
+      "allowed_book_genre": "Satire",
+      "relationship": "exact"
+    },
+    {
+      "allowed_book_genre": "Comedy",
+      "relationship": "adjacent"
+    },
+    {
+      "allowed_book_genre": "Novel",
+      "relationship": "adjacent"
+    }
+  ]
+}

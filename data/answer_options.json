@@ -1,0 +1,176 @@
+{
+  "genre": [
+    {
+      "display_order": 1,
+      "answer_option": "Philosophy"
+    },
+    {
+      "display_order": 2,
+      "answer_option": "History"
+    },
+    {
+      "display_order": 3,
+      "answer_option": "Novel"
+    },
+    {
+      "display_order": 4,
+      "answer_option": "Drama"
+    },
+    {
+      "display_order": 5,
+      "answer_option": "Epic"
+    },
+    {
+      "display_order": 6,
+      "answer_option": "Political Theory"
+    },
+    {
+      "display_order": 7,
+      "answer_option": "Theology"
+    },
+    {
+      "display_order": 8,
+      "answer_option": "Science"
+    },
+    {
+      "display_order": 9,
+      "answer_option": "Essays"
+    },
+    {
+      "display_order": 10,
+      "answer_option": "Poetry"
+    },
+    {
+      "display_order": 11,
+      "answer_option": "Satire"
+    }
+  ],
+  "themes": [
+    {
+      "display_order": 1,
+      "answer_option": "Power"
+    },
+    {
+      "display_order": 2,
+      "answer_option": "Love"
+    },
+    {
+      "display_order": 3,
+      "answer_option": "War"
+    },
+    {
+      "display_order": 4,
+      "answer_option": "Death"
+    },
+    {
+      "display_order": 5,
+      "answer_option": "Faith"
+    },
+    {
+      "display_order": 6,
+      "answer_option": "Freedom"
+    },
+    {
+      "display_order": 7,
+      "answer_option": "Society"
+    },
+    {
+      "display_order": 8,
+      "answer_option": "Leadership"
+    },
+    {
+      "display_order": 9,
+      "answer_option": "Knowledge"
+    },
+    {
+      "display_order": 10,
+      "answer_option": "Identity"
+    },
+    {
+      "display_order": 11,
+      "answer_option": "Politics"
+    },
+    {
+      "display_order": 12,
+      "answer_option": "Meaning"
+    },
+    {
+      "display_order": 13,
+      "answer_option": "Justice"
+    },
+    {
+      "display_order": 14,
+      "answer_option": "Education"
+    }
+  ],
+  "difficulty": [
+    {
+      "display_order": 1,
+      "answer_option": "Keep it intuitive"
+    },
+    {
+      "display_order": 2,
+      "answer_option": "Give me something to chew on"
+    },
+    {
+      "display_order": 3,
+      "answer_option": "Break my brain"
+    }
+  ],
+  "length": [
+    {
+      "display_order": 1,
+      "answer_option": "Something I could read in an afternoon"
+    },
+    {
+      "display_order": 2,
+      "answer_option": "A solid weekend"
+    },
+    {
+      "display_order": 3,
+      "answer_option": "A couple of weeks"
+    },
+    {
+      "display_order": 4,
+      "answer_option": "I wanna marry the book"
+    }
+  ],
+  "mood": [
+    {
+      "display_order": 1,
+      "answer_option": "Reflective"
+    },
+    {
+      "display_order": 2,
+      "answer_option": "Tragic"
+    },
+    {
+      "display_order": 3,
+      "answer_option": "Comic"
+    },
+    {
+      "display_order": 4,
+      "answer_option": "Dark"
+    },
+    {
+      "display_order": 5,
+      "answer_option": "Hopeful"
+    },
+    {
+      "display_order": 6,
+      "answer_option": "Intense"
+    },
+    {
+      "display_order": 7,
+      "answer_option": "Satirical"
+    },
+    {
+      "display_order": 8,
+      "answer_option": "Strange"
+    },
+    {
+      "display_order": 9,
+      "answer_option": "Spiritual"
+    }
+  ]
+}
