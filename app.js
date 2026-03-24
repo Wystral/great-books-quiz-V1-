@@ -203,7 +203,7 @@ function renderQuestion() {
 
   const hint = response_type === "multi_select"
     ? selectedValues.length === 0
-      ? `Choose ${max_choices}`
+      ? null
       : selectedValues.length < max_choices
         ? `${max_choices - selectedValues.length} more to go`
         : null
@@ -233,7 +233,7 @@ function renderQuestion() {
       <div>
         <p class="question-number">${getQuestionLabel(question_id)}</p>
         <h2 class="question-text">${escapeHTML(question_text)}</h2>
-        ${hint ? `<p class="question-hint">${hint}</p>` : ""}
+        <p class="question-hint">${hint || ""}</p>
       </div>
 
       <div class="options-grid${useSingleCol ? " single-col" : ""}" id="options-grid">
@@ -436,7 +436,7 @@ function updateOptionsInPlace(questionId, maxChoices) {
 
   const hint = document.querySelector(".question-hint");
   if (hint && response_type === "multi_select") {
-    if (selectedValues.length === 0)             hint.textContent = `Choose ${maxChoices}`;
+    if (selectedValues.length === 0)             hint.textContent = "";
     else if (selectedValues.length < maxChoices) hint.textContent = `${maxChoices - selectedValues.length} more to go`;
     else                                         hint.textContent = "";
   }
